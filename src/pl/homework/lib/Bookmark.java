@@ -1,8 +1,8 @@
 package pl.homework.lib;
 
 public class Bookmark {
-    String title;
-    int page;
+    private String title;
+    private int page;
 
     public Bookmark() {
     }
