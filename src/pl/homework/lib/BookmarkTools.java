@@ -17,10 +17,10 @@ public class BookmarkTools {
     }
 
     public static boolean isTagged(Bookmark[] bookmarks, Bookmark tag, int index) {
-        boolean isTag= false;
-        for (int i = index-1; i>= 0; i--) {
+        boolean isTag = false;
+        for (int i = index; i >= 0; i--) {
             if (tag.equals(bookmarks[i])) {
-                isTag = true;
+                return true;
             } else
                 isTag = false;
         }
